@@ -274,7 +274,7 @@ console.log('New Total: ', newTotal)
 
 // CODE HERE
 
-let savings = (newTotal/total)*100
+let savings = (total - newTotal) / total * 100
 console.log(savings)
 
 
